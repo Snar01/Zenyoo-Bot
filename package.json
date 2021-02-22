@@ -10,17 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.6.1",
     "discord.js": "^12.2.0",
     "express": "^4.17.1",
-    "fortnite-api-io": "^1.5.1",
     "moment": "^2.27.0",
     "parse-ms": "^2.1.0",
     "quick.db": "^7.1.1",
-    "weather-js": "^2.0.0",
-    "jimp": "^0.16.1",
-    "moment-timezone": "^0.5.31",
-    "ms": "^2.1.2",
-    "ascii-table": "0.0.9"
+    "ms": "^2.1.2"
   }
 }
