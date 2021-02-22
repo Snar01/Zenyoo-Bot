@@ -7,4 +7,4 @@ O Zenyoo era um bot que foi feito pelo Leonardo, o zenyoo tem uma história muit
 - Leo muito obrigado por me deixares fazer o projeto teu antigo agora numa das minhas criações 
 
 ## PS
-- irei deixar uam das minhas index.js já que não vou colocar o código do bot, porque se colocar toda a gente vai ter acesso e bot deixa de ser esprcial
+- Irei deixar umas das minhas index.js já que não vou colocar o código do bot, porque se colocar toda a gente vai ter acesso e bot deixa de ser especial
