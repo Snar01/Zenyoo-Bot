@@ -16,3 +16,8 @@ else if (args[0].toLowerCase() != array1[rand]) {
     );
   }
 };
+
+exports.help = {
+  name: "conflip",
+  analise: ["decisão"]
+}
