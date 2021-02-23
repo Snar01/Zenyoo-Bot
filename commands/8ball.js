@@ -15,3 +15,8 @@ exports.run = async (client, message) => {
     msg.edit(respostas[BallNum]);
     
     }
+
+exports.help = {
+    name: "8ball",
+    analise: ["perguntar"]
+};
