@@ -17,3 +17,7 @@ exports.run = async (client, message, args) => {
         .then(() => message.channel.send(`Enviou uma mensagem para ${user.user.tag}`));
         message.delete().catch(O_o => {});
 }
+
+exports.help = {
+      name: "dm"
+}
