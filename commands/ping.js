@@ -1,5 +1,9 @@
-exports.run = async (client, message) => {
-    const ms = await message.channel.send("Ping?");
-	const clientms = ms.createdTimestamp - message.createdTimestamp;
-	ms.edit('📡 Seu ping é: ' + clientms + 'ms / 🖥 Ping do bot com Server:' + Math.floor(client.ping) + 'ms');
-}
+module.exports.run = async (client, message, args) => {
+  const m = await message.channel.send('ping?');
+
+  m.edit(`🏓 **| Pong!**\nMinha latência no Server: **${m.createdTimestamp -
+    message.createdTimestamp}ms.**\nLatência da API: **${Math.round(
+      client.ws.ping
+    )}ms**`
+  );
+};
