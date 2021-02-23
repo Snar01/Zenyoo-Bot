@@ -23,33 +23,16 @@ client.commands = new Discord.Collection();
 client.aliases = new Map();
 client.queue = new Map();
 
-fs.readdir("./admin/", (err, files) => {
-  if (err) return console.error(err);
-  files.forEach(file => {
-    if (!file.endsWith(".js")) return;
-    let props = require(`./admin/${file}`);
-    let commandName = props.help.name;
-    console.log(`Comando -----> ${commandName} <----- foi carregado na categoria admin`);
-    client.commands.set(commandName, props);
-    for (let i in props.help.analise) {
-      client.aliases.set(props.help.analise[i], commandName)
-    }
-  });
-});
-
 fs.readdir("./commands/", (err, files) => {
   if (err) return console.error(err);
   files.forEach(file => {
     if (!file.endsWith(".js")) return;
     let props = require(`./commands/${file}`);
-    let commandName = props.help.name;
-    console.log(`Comando -----> ${commandName} <----- foi carregado na categoria gerais`);
+    let commandName = file.split(".")[0];
+    console.log(`Comando ${ commandName } carregado`);
     client.commands.set(commandName, props);
-    for (let i in props.help.analise) {
-      client.aliases.set(props.help.analise[i], commandName)
-    }
   });
-}); //este arquivo depois de fazer tudo, no final vao ter de adicionar o `exports.help = {name: "nome", analise: ["outra opeção de fazer"]}` mas não precisão de colocar o analise, se tirarem tem de tirar a virgula depois do nome
+});
 /*
 //eventos
 fs.readdir('./events/', (err, files) => {
