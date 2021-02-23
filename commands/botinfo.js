@@ -24,3 +24,8 @@ module.exports.run = async (client, message, args) => {
 		);
 	message.reply(embed);
 };
+
+exports.help = {
+   name: "botinfo",
+   analise: ["info"]
+}
