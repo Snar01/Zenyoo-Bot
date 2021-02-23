@@ -15,3 +15,8 @@ module.exports.run = async (client, message, args) => {
   await message.channel.send(foto);
 
 };
+
+exports.help = {
+  name: "avatar",
+  analise: ["perfil"]
+}
