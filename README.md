@@ -8,3 +8,6 @@ O Zenyoo era um bot que foi feito pelo Leonardo, o zenyoo tem uma história muit
 
 ## PS
 - Irei deixar umas das minhas index.js alguns comandos de outros bots meus já que não vou colocar o código do bot, porque se colocar toda a gente vai ter acesso e bot deixa de ser especial
+
+## Para usar:
+ - Há arquivos que têm o nome a começar por `example` só tirar o `example` dos nomes ex: o nome do config está como: `example.config.json` mudai pra `config.json` e o arquivo `example.env` mudem para `.env`
