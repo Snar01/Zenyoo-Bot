@@ -9,3 +9,8 @@ exports.run = async (client, message, args) => {
    message.guild.members.ban(membro.id)
     message.channel.send(`O membro ${membro} foi banido com sucesso!`)
 }
+
+exports.help = {
+    name: "ban",
+    analise: ["banir"]
+}
