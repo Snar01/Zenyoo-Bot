@@ -1,5 +1,5 @@
 # Zenyoo-Bot
-O Zenyoo era um bot que foi feito pelo Leonardo, o zenyoo tem uma história muito grande, depois de ele ter sofrido um assidente e ter sido desativo, perguntai ao dono se poderia volta-lo a fazer, ele concordou, para quem quer ver agora o novo e melhora Zenyoo basta ir a opeção abaixo
+O Zenyoo era um bot que foi feito pelo Leonardo, o Zenyoo tem uma história muito grande, depois de ele ter sofrido um assidente e ter sido desativo, perguntai ao dono se poderia volta-lo a fazer, ele concordou, para quem quer ver agora o novo e melhora Zenyoo basta ir a opeção abaixo
 # Como o adicionar
 - Para adicionares o novo e melhor Zenyoo basta [clicares aqui](https://discord.com/oauth2/authorize?client_id=812801092538597418&scope=bot&permissions=2147483647&redirect_uri=https%3A%2F%2Fdiscord.gg%2FUtWdsuJv8y)
 ## Novidades
